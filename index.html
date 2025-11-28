@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Jessy </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+
+            <nav>
+
+                <img src="images/logo.jpg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text"></div>
+            <p>Etudiante en BTS SIO</p>
+            <h1>Bonjour, je m'appelle <span>Jessy</span><br>, je suis étudiante en BTS SIO option SISR.</h1>
+        </div>
+    </div>
+    <!-- About Section -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1"></div>
+                <img src="images/logo.jpg">
+                <div class="about-col-2"></div>
+                <h1 class="sub-title">A propos</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa omnis minima, quidem, expedita
+                    assumenda animi optio rem accusantium esse error impedit similique? Atque laudantium, hic dolores
+                    aliquam cum eveniet repellendus?</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('formation')">Formation</p>
+                </div>
+
+                <div class="tab-contents active-tab" id='skills'>
+                    <ul>
+                        <li><span>Compétences techniques</span><br>HTML, CSS, JS, CISCO</li>
+                        <li><span>Soft skills</span><br>Adaptabilité, Autonomie, Sens de l'organisation</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id='experience'>
+                    <ul>
+                        <li><span>2023 - 2024 </span><br>Association ISIT, Réseau Ambassadeurs</li>
+                        <li><span>2023</span><br>Baby-sitting, Family Sphere</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id='formation'>
+                    <ul>
+                        <li><span>2025 - A ce jour</span><br>BTS SIO, Informatique, Paris</li>
+                        <li><span>2023 - 2024</span><br>L1 PGE Communication management, ISIT, Paris</li>
+                        <li><span>2022 - 2023</span><br>L1 LLCER Chinois, Université Paris Cité, Paris</li>
+                        <li><span>2021 - 2022</span><br>Baccalauréat, Lycée de la Mare Carrée, Lieusaint</li>
+                        <li><span>2021 - 2022</span><br>Obtention du Cambridge B2</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Section -->
+
+    <div id="portfolio">
+
+        <div class="container">
+            <h1 class="sub-title">Mon Portfolio</h1>
+
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/icon.jpg">
+                    <div class="layer">
+                        <h3>TP 1</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, enim esse, natus modi
+                            voluptatem tenetur dignissimos eum voluptatum vitae atque inventore error optio sunt
+                            deserunt harum sequi in unde ratione!</p>
+                        <a href="TP1/index.html"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/icon.jpg">
+                    <div class="layer">
+                        <h3>TP 2</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, enim esse, natus modi
+                            voluptatem tenetur dignissimos eum voluptatum vitae atque inventore error optio sunt
+                            deserunt harum sequi in unde ratione!</p>
+                        <a href="TP2/index.html"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/icon.jpg">
+                    <div class="layer">
+                        <h3>TP 3</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, enim esse, natus modi
+                            voluptatem tenetur dignissimos eum voluptatum vitae atque inventore error optio sunt
+                            deserunt harum sequi in unde ratione!</p>
+                        <a href="TP3/index.html"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/icon.jpg">
+                    <div class="layer">
+                        <h3>TP 4</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, enim esse, natus modi
+                            voluptatem tenetur dignissimos eum voluptatum vitae atque inventore error optio sunt
+                            deserunt harum sequi in unde ratione!</p>
+                        <a href="TP4/index.html"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/icon.jpg">
+                    <div class="layer">
+                        <h3>TP 5</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, enim esse, natus modi
+                            voluptatem tenetur dignissimos eum voluptatum vitae atque inventore error optio sunt
+                            deserunt harum sequi in unde ratione!</p>
+                        <a href="TP5/index.html"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/icon.jpg">
+                    <div class="layer">
+                        <h3>TP 6</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, enim esse, natus modi
+                            voluptatem tenetur dignissimos eum voluptatum vitae atque inventore error optio sunt
+                            deserunt harum sequi in unde ratione!</p>
+                        <a href="TP6 CSS/tp6.html"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/icon.jpg">
+                    <div class="layer">
+                        <h3>TP 7</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, enim esse, natus modi
+                            voluptatem tenetur dignissimos eum voluptatum vitae atque inventore error optio sunt
+                            deserunt harum sequi in unde ratione!</p>
+                        <a href="TP7/sommaire.html"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/icon.jpg">
+                    <div class="layer">
+                        <h3>TP 8</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, enim esse, natus modi
+                            voluptatem tenetur dignissimos eum voluptatum vitae atque inventore error optio sunt
+                            deserunt harum sequi in unde ratione!</p>
+                        <a href="TP8/index.html"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/icon.jpg">
+                    <div class="layer">
+                        <h3>TP 9</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, enim esse, natus modi
+                            voluptatem tenetur dignissimos eum voluptatum vitae atque inventore error optio sunt
+                            deserunt harum sequi in unde ratione!</p>
+                        <a href="TP9/index.html"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/icon.jpg">
+                    <div class="layer">
+                        <h3>TP 10</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, enim esse, natus modi
+                            voluptatem tenetur dignissimos eum voluptatum vitae atque inventore error optio sunt
+                            deserunt harum sequi in unde ratione!</p>
+                        <a href="TP10/index.html"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/icon.jpg">
+                    <div class="layer">
+                        <h3>TP 11</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, enim esse, natus modi
+                            voluptatem tenetur dignissimos eum voluptatum vitae atque inventore error optio sunt
+                            deserunt harum sequi in unde ratione!</p>
+                        <a href="TP11/index.html"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/icon.jpg">
+                    <div class="layer">
+                        <h3>TP JavaScript</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, enim esse, natus modi
+                            voluptatem tenetur dignissimos eum voluptatum vitae atque inventore error optio sunt
+                            deserunt harum sequi in unde ratione!</p>
+                        <a href="TPjs1/index.html"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/icon.jpg">
+                    <div class="layer">
+                        <h3>TP Base de données</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, enim esse, natus modi
+                            voluptatem tenetur dignissimos eum voluptatum vitae atque inventore error optio sunt
+                            deserunt harum sequi in unde ratione!</p>
+                        <a href="base de données/index.html"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/icon.jpg">
+                    <div class="layer">
+                        <h3>Mes Certifications</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, enim esse, natus modi
+                            voluptatem tenetur dignissimos eum voluptatum vitae atque inventore error optio sunt
+                            deserunt harum sequi in unde ratione!</p>
+                        <a href="Certifications/index.html"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">Voir Plus</a>
+        </div>
+
+
+
+
+    </div>
+    <!-- contact Section -->
+
+    <div class="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left"></div>
+                <h1 class="sub-title">Contactez-moi</h1>
+                <p> <i class="fa-solid fa-paper-plane"></i> thbjss22@gmail.com</p><br>
+                <p> <i class="fa-solid fa-mobile-screen"></i> 0782924497</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/jessy-thibaut-538a29237/"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/sii0o"><i class="fa-brands fa-github-alt"></i></a>
+                </div>
+
+                <a href="images/Jessy_THIBAUT_CV_2025 II.pdf" download="" class="btn btn2">Télécharger mon CV</a>
+                <!-- <div class="contact-right"></div>
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Nom" placeholder="Votre Nom">
+                    <input type="email" name="email" placeholder="Votre Email" required>
+                    <textarea name="message" rows="6" placeholder="Votre message"></textarea>
+                    <button type="submit" class="btn btn2">Envoyer</button>
+                </form>
+                <span id="msg"></span>
+            </div> -->
+
+            </div>
+        </div>
+
+        <script>
+
+            var tablinks = document.getElementsByClassName("tab-links");
+
+            var tabcontents = document.getElementsByClassName("tab-contents");
+
+            function opentab(tabname) {
+                for (tablink of tablinks) {
+                    tablink.classList.remove("active-link");
+                }
+                for (tabcontent of tabcontents) {
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+
+        </script>
+
+        <script>
+            var sidemenu = document.getElementById("sidemenu");
+
+            function openmenu() {
+                sidemenu.style.right = "0";
+            }
+
+            function closemenu() {
+                sidemenu.style.right = "-200px";
+            }
+
+
+
+        </script>
+
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbwahg4sJ1J_8YSV2QPX5T-DZCw-wkN-wI2KxiertMEXTojGPpxuEQA-mE_n5UtcxE9O/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById("msg")
+
+            form.addEventListener('submit', e => {
+                e.preventDefault()
+                fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                    .then(response => {
+                        msg.innerHTML = "Message envoyé avec succès"
+                        setTimeout(function () {
+                            msg.innerHTML = ""
+                        }, 3000)
+                        form.reset()
+                    })
+                    .catch(error => console.error('Error!', error.message))
+            })
+        </script>
+
+</body>
+
+</html>
